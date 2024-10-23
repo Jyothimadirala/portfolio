@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="skills.css">
+    <style>
+        h1{
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .text-container{
+            height:120px;
+    width:250px;
+    margin:50px;
+    padding: 50px;
+    border-radius: 100px;
+    background-color: green;
+    text-align: left;
+    list-style-position: inside;
+    color:white;
+    border-radius: 50px;
+        }
+        body{
+            background-color:gold;
+        }
+        * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gold;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 100px auto;
+    background-color: green;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #4CAF50;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+        
+    </style>
+</head>
+<body>
+    <div class="navbar-container">
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Madir/OneDrive/Desktop/html/About.html">About</a></li>
+                <li><a href="file:///C:/Users/Madir/OneDrive/Desktop/html/Education.html">Education</a></li>
+                <li><a href="file:///C:/Users/Madir/OneDrive/Desktop/html/Skills.html">Skills</a></li>
+                <li><a href="file:///C:/Users/Madir/OneDrive/Desktop/html/Projects.html">Projects</a></li>
+                <li><a href="file:///C:/Users/Madir/OneDrive/Desktop/html/Achievements.html">Achievements</a></li>
+                <li><a href="file:///C:/Users/Madir/OneDrive/Desktop/html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    <h1>Contact Me:</h1>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+        </div>
+        <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required>
+        </div>
+        <div class="form-group">
+            <label for="comments">Comments / Questions</label>
+            <textarea id="comments" name="comments" placeholder="Write something.." style="height:150px" required></textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Send Message">
+        </div>
+    </form>
+        
+</body>
+</html>
